@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Consultar Produto</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <p>
+            <form method="GET" action="../java/ConsultarCodigo.jsp">
+                <label for="codigo">Código do produto:</label>
+                <input type="number" name="codigo" id="codigo">
+                <input type="submit" value="Pesquisar">            
+            </form>
+        </p>
+        <p>
+            <form method="GET" action="../java/ConsultarNome.jsp">
+                <label for="nome">Nome do produto:</label>
+                <input type="text" size="70" maxlength="70" name="nome" id="nome">
+                <input type="submit" value="Pesquisar">
+            </form>
+        </p>
+        <p>
+            <form method="GET" action="../java/ConsultarMarca.jsp">
+                <label for="marca">Marca do produto:</label>
+                <input type="text" size="70" maxlength="70" name="marca" id="marca">
+                <input type="submit" value="Pesquisar">            
+            </form>
+        </p>
+    </body>
+</html>

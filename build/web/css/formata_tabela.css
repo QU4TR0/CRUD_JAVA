@@ -1,0 +1,16 @@
+table{
+    border: solid #ededed 1px;
+    width: 90%;
+}
+
+table th{
+    font-weight: bold;
+    background-color: #000000;
+    color:#ffffff;
+    font-size: 18px;
+}
+
+table td{
+    text-align:center;
+}
+

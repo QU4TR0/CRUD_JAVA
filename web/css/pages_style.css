@@ -1,0 +1,26 @@
+nav{
+   margin-top: 8px;
+   text-align: left;
+}
+
+nav a{
+   width:150px;
+   height: 25px;
+   color: #000000;
+   text-decoration: none;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
+}
+
+nav a:hover{
+    color:#ffffff;
+    background-color: #c42d2d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
